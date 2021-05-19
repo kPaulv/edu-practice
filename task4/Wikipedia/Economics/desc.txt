@@ -1,0 +1,9 @@
+request: https://www.mediawiki.org/w/api.php?action=query&list=search&srsearch=Economics&srlimit=2&utf8=&format=json
+response: shows the result of search "Economics"
+parameters:
+	executes query (action=query)
+	type search (list=search)
+	searches for "Economics" (srsearch=Economics)
+	sets limit of results - 2 (srlimit=2)
+	sets Unicode standard (utf8=)
+	sets format as ".json" (format=json)

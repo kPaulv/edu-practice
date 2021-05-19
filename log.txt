@@ -1,0 +1,11 @@
+commit 3be3d9100eafb0c3551b0c2e47f8328749071bd7 (HEAD -> master)
+Author: Pavel <pavel.k.313@mail.ru>
+Date:   Tue Feb 11 22:40:00 2020 +0300
+
+    add status.txt
+
+commit d2074c189fdbf4019a84cc855167690a14728662
+Author: Pavel <pavel.k.313@mail.ru>
+Date:   Tue Feb 11 22:34:32 2020 +0300
+
+    add .gitignore

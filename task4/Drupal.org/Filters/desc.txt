@@ -1,0 +1,2 @@
+request: https://www.drupal.org/api-d7/node.json?type=article&field_tags=17&author=1
+response: lists nodes with type "article", field tags amount = 17 and author 1 

@@ -1,0 +1,7 @@
+request: https://www.drupal.org/api-d7/node.json?type=project_issue&field_project=3060t&field_issue_status=8&field_issue_category=2&field_issue_priority=100&limit=1
+response: shows 1 node (limit=1):
+	of type "project_issue", 
+	field_project=3060, 
+	with field_issue_status=8(needs review), 
+	field_issue_category = 2(Task), 
+	field_issue_priority = 100(Low),

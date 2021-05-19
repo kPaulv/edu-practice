@@ -1,0 +1,2 @@
+query: https://images.dog.ceo/breeds/chow/n02112137_13232.jpg
+response: gets an image with the name n02112137_13232.jpg

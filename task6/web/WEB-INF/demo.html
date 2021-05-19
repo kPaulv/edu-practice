@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="posts.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        posts.getPost(1);
+        posts.getPost(11115);
+        posts.getPosts(0, 1, {author: "Пётр Петров"});
+        posts.getPosts(0, 1, {author: "Янка Купала"});
+        posts.addPost({
+            id: '21',
+            description: 'а',
+            createdAt: new Date('2020-03-22T13:13:00'),
+            author: 'Андрей Андреев',
+            photoLink: 'https://sun9-28.userapi.com/c4449/u136559210/a_6471ce12.jpg?ava=1',
+            tags: [
+                '#JavaScript'
+            ],
+            likes: [
+                'Андрей Андреев'
+            ]
+        });
+        posts.addPost({
+            id: '',
+            description: 'а',
+            createdAt: new Date('2020-03-22T13:13:00'),
+            author: 'Иван Иванов',
+        });
+        posts.editPost(2, {
+            description: 'g'
+        });
+        posts.removePost(3);
+    </script>
+</body>
+</html>

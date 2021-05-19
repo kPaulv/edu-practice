@@ -1,0 +1,3 @@
+query: https://www.drupal.org/api-d7/node.json?type=casestudy
+response: lists all nodes with content type "casestudy"
+parameter type=casestudy

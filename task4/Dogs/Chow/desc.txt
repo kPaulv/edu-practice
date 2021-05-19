@@ -1,0 +1,6 @@
+request: https://dog.ceo/api/breed/chow/images/random
+response: gets an URL of a random image of Chow
+	{
+    		"message": "https://images.dog.ceo/breeds/chow/n02112137_13232.jpg",
+    		"status": "success"
+	}

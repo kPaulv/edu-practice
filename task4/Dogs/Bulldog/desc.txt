@@ -1,0 +1,10 @@
+query: https://dog.ceo/api/breed/bulldog/list/
+response: lists only breeds of bulldogs
+{
+    "message": [
+        "boston",
+        "english",
+        "french"
+    ],
+    "status": "success"
+}

@@ -1,0 +1,8 @@
+request: https://www.mediawiki.org/w/api.php?action=query&list=search&srsearch=Benjamin%20Franklin&utf8=&format=json
+response: shows the result of search "Benjamin Franclin"
+parameters:
+	executes query(action=query)
+	type is "search" (list=search)
+	searches for "Benjamin Franklin"(srsearch)
+	sets Unicode standard (utf8=)
+	sets format as ".json" (format=json)

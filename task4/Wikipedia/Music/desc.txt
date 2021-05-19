@@ -1,0 +1,10 @@
+request: https://www.mediawiki.org/w/api.php?action=query&list=search&srsearch=Music&srlimit=1&srsort=incoming_links_desc&utf8=&format=json
+response: shows the result of search "Music"
+parameters:
+	executes query (action=query)
+	type search (list=search)
+	searches for "Music" (srsearch=Music)
+	limit of results is 1 (srlimit=1)
+	sorts result descending (srsort=incoming_links_desc)
+	sets Unicode standard (utf8=)
+	sets format as "json" (format=json)
